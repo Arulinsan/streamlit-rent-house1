@@ -226,7 +226,7 @@ Plotly merupakan library yang dugunakan visualisasi data interaktif dalam bahasa
 
 ``` python
 from sklearn.metrics import r2_score
-score = r2_score(y_test, pred)  
+score = r2_score(ytest, pred)  
 score
 
 print(f"Precision = {score}")
