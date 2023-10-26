@@ -206,6 +206,7 @@ print('Score Akurasi = ', r2_score(ytest,pred))
 
 dari hasil prediksi menghasilkan akurasi 98% yang dimana akurasi tersebut sangat bagus sekali.
 atau outputnya :
+
 Score Akurasi =  0.9883176394507799
 
 dibuatkan program contoh visual untuk prediksi harga nya
