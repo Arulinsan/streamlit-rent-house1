@@ -65,7 +65,7 @@ Melihat apakah data nilainya ada yang Null atau tidak
 ```Python
 sns.heatmap(df.isnull())
 ```
-
+![image](image.png)
 Mengetahui deskripsi data
 
 ``` python
@@ -99,6 +99,7 @@ df.shape
 - Tenant Preferred : Yaitu List status penyewa yang dibolehkan (Dtype : Object) \[Contoh : lajang, Lajang/keluarga, dan keluarga\]
 - Bathroom : Yaitu jumlah kamar mandi yang ada di rumahnya (Dtype : Int64)\[Contoh : 2, 3\]
 - Point of contact : Yaitu kontak yang bisa di hubungi (Dtype : Object)\[Contoh : Contact Owner\]
+
 
 
 Melihat perbedaan rental di berbagai kota berdasarkan BHK
