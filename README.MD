@@ -138,7 +138,9 @@ Melihat Perbedaan Rental di kota berdasarkan Ukuran rumah
 figure2 = px.bar(df, x=df["City"], y = df["Rent"], color = df["Size"], title="Sewa di Berbagai Kota Berdasarkan Ukuran Perabot Rumah")
 figure2.show()
 ```
+![image4](image5.png)
 
+Melihat sewa yang masih tersedia di kota 
 ```Python
 cities = df["City"].value_counts()
 labels = cities.index
@@ -150,6 +152,7 @@ fig.update_layout(title_text='Rumah yang masih tersedia untuk di sewa')
 fig.update_traces(hoverinfo='label+percent', textinfo='value', textfont_size=25,
                   marker=dict(colors=colors, line=dict(color='black', width=3)))
 ```
+![image5](image6.png)
 
 ## Data Preperation
 Dalam dataset ini untuk menyiapkan data untuk dijadikan model, di perlukan konversi data kategorikal ke numerikal. langkah-langkah yang perlu dilakukan adalah : 
