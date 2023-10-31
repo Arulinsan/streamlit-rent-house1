@@ -111,6 +111,8 @@ plt.title("Perbedaan rental di berbagai kota berdasarkan BHK (Bedroom, Hall, Kit
 
 sns.barplot(x= df["City"], y=df["Rent"], hue= df["BHK"],palette="Set3", ci = None)
 ``` 
+![image1](image2.png)
+
 Melihat Perbedaan Rental di berbagai Kota Berdasarkan Tipe Area
 ``` Python
 plt.figure(figsize = (15, 5))
@@ -119,6 +121,7 @@ plt.title("Perbedaan Rental di berbagai Kota Berdasarkan Tipe Area")
 
 sns.barplot(x= df["City"], y=df["Rent"], hue= df["Area Type"], palette="Blues",ci = None)
 ```
+![image2](image3.png)
 
 Perbedaan Rental Rumah di berbagai kota Berdasarkan Status Perabotnya
 ``` Python
@@ -128,6 +131,7 @@ plt.title("Perbedaan Rental Rumah di berbagai kota Berdasarkan Status Perabotnya
 
 sns.barplot(x=df["City"], y=df["Rent"], hue=df["Furnishing Status"], ci=None)
 ```
+![image3](image4.png)
 
 Melihat Perbedaan Rental di kota berdasarkan Ukuran rumah
 ```Python
